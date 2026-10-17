@@ -1,0 +1,165 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     width="512"
+     height="512">
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172a38"/>
+      <stop offset="100%" stop-color="#090e14"/>
+    </linearGradient>
+
+    <linearGradient id="turquoise"
+                    x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#75f6df"/>
+      <stop offset="100%" stop-color="#25c8aa"/>
+    </linearGradient>
+
+    <linearGradient id="rock"
+                    x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#263e4b"/>
+      <stop offset="100%" stop-color="#14232f"/>
+    </linearGradient>
+
+    <clipPath id="roundedSquare">
+      <rect width="512" height="512" rx="112"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedSquare)">
+
+    <!-- Premium dark background -->
+    <rect width="512" height="512" fill="url(#background)"/>
+
+    <!-- Subtle geological contour lines -->
+    <g fill="none"
+       stroke="#35e0c0"
+       stroke-width="2"
+       opacity="0.12">
+      <path d="M-40 110 C80 35 160 155 280 85 S440 45 560 110"/>
+      <path d="M-40 135 C80 60 160 180 280 110 S440 70 560 135"/>
+      <path d="M-40 160 C80 85 160 205 280 135 S440 95 560 160"/>
+      <path d="M-50 400 C60 320 170 430 270 370 S440 340 560 405"/>
+      <path d="M-50 425 C60 345 170 455 270 395 S440 365 560 430"/>
+    </g>
+
+    <!-- Outer frame -->
+    <rect x="32" y="32"
+          width="448" height="448"
+          rx="88"
+          fill="none"
+          stroke="#35e0c0"
+          stroke-opacity="0.18"
+          stroke-width="3"/>
+
+    <!-- Geological rock formation -->
+    <path d="M115 145
+             L218 105
+             L330 133
+             L396 210
+             L377 325
+             L294 392
+             L170 370
+             L105 285
+             Z"
+          fill="url(#rock)"
+          stroke="#426170"
+          stroke-width="4"
+          stroke-linejoin="round"/>
+
+    <!-- Rock strata -->
+    <path d="M105 235
+             L175 210
+             L247 230
+             L320 205
+             L390 226
+             L384 260
+             L316 241
+             L245 264
+             L172 242
+             L108 265
+             Z"
+          fill="#315263"
+          opacity="0.95"/>
+
+    <path d="M108 278
+             L173 256
+             L246 277
+             L315 254
+             L382 275
+             L374 310
+             L309 290
+             L241 314
+             L169 292
+             L120 309
+             Z"
+          fill="#244b57"
+          stroke="#416a74"
+          stroke-width="2"/>
+
+    <path d="M125 321
+             L174 306
+             L241 326
+             L307 305
+             L367 322
+             L337 357
+             L290 372
+             L178 351
+             Z"
+          fill="#1b3542"/>
+
+    <!-- Exploration marker -->
+    <circle cx="256" cy="191"
+            r="67"
+            fill="#0b171e"
+            stroke="url(#turquoise)"
+            stroke-width="7"/>
+
+    <circle cx="256" cy="191"
+            r="49"
+            fill="none"
+            stroke="#35e0c0"
+            stroke-opacity="0.25"
+            stroke-width="2"
+            stroke-dasharray="5 9"/>
+
+    <!-- Central geological compass -->
+    <path d="M256 142
+             L281 204
+             L256 190
+             L231 204
+             Z"
+          fill="url(#turquoise)"/>
+
+    <path d="M256 190
+             L281 204
+             L256 239
+             L231 204
+             Z"
+          fill="#d9fff6"
+          opacity="0.9"/>
+
+    <circle cx="256" cy="191"
+            r="7"
+            fill="#0b171e"
+            stroke="#75f6df"
+            stroke-width="3"/>
+
+    <!-- Small observation points -->
+    <circle cx="145" cy="190" r="5" fill="#75f6df"/>
+    <circle cx="367" cy="190" r="5" fill="#75f6df"/>
+    <circle cx="256" cy="115" r="5" fill="#75f6df"/>
+
+    <!-- Bottom accent -->
+    <path d="M164 415 H348"
+          stroke="url(#turquoise)"
+          stroke-width="6"
+          stroke-linecap="round"/>
+
+    <circle cx="146" cy="415" r="5" fill="#75f6df"/>
+    <circle cx="366" cy="415" r="5" fill="#75f6df"/>
+
+  </g>
+</svg>

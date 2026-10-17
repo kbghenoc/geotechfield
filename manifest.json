@@ -1,0 +1,28 @@
+
+{
+  "id": "./",
+  "name": "GEOTECHFIELD — Geological Field Notebook",
+  "short_name": "GEOTECHFIELD",
+  "description": "Professional geological field notebook for projects, observations and field data management.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090e14",
+  "theme_color": "#090e14",
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
